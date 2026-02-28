@@ -93,7 +93,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: LoliaFrp_${{ matrix.goos }}_${{ matrix.goarch }}
+          name: TXFrp_${{ matrix.goos }}_${{ matrix.goarch }}
           path: |
             release/packages/frp_*
           retention-days: 7
@@ -183,7 +183,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: LoliaFrp_android_arm
+          name: xinghanxu_Frp_android_arm
           path: |
             release/packages/frp_*
           retention-days: 7
