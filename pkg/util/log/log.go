@@ -41,7 +41,7 @@ func init() {
 		ReportCaller:    true,
 		ReportTimestamp: true,
 		TimeFormat:      time.Kitchen,
-		Prefix:          "LoliaFRP-CLI",
+		Prefix:          "xinghanxu-FRP-CLI",
 		CallerOffset:    1,
 	})
 	// 设置自定义样式以支持 Trace 级别
@@ -78,7 +78,7 @@ func InitLogger(logPath string, levelStr string, maxDays int, disableLogColor bo
 		ReportCaller:    true,
 		ReportTimestamp: true,
 		TimeFormat:      time.Kitchen,
-		Prefix:          "LoliaFRP-CLI",
+		Prefix:          "xinghanxu-FRP-CLI",
 		CallerOffset:    1,
 		Level:           level,
 	})
